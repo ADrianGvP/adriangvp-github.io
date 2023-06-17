@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(./img/fondito.jpg);
+    background-size: cover;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+}
+
+.wrap{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.widget{
+    margin: 60px;
+}
+
+.widget p{
+    display: inline-block;
+    line-height: 3rem;
+}
+
+.fecha{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 39px;
+    margin-bottom: 5px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    width: 100%;
+}
+
+.reloj{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    padding: 20px;
+    font-size: 4em;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.138);
+}
+
+.reloj .caja-segundos{
+    display: inline-block;
+}
+
+.reloj .segundos,
+.reloj .ampm{
+    font-size: 50px;
+    display: block;
+}
+
+footer{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+}
